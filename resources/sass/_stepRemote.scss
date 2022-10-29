@@ -1,0 +1,131 @@
+.stepRemote {
+    .progress-bar {
+        width: 100%;
+        background-color: $bg-color;
+    }
+
+    .text-group {
+        width: 100%;
+        max-width: 330px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_12 {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        font-family: Open Sans, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 49px;
+        text-align: center;
+        color: #333333;
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    h3 {
+        font-family: Open Sans, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+        color: #333333;
+        padding-bottom: 60px;
+    }
+
+
+    .section_1 {
+        margin-bottom: 10px;
+
+        p {
+            margin-bottom: 30px;
+        }
+    }
+
+
+    .a-icon {
+        position: absolute;
+        right: 16px;
+        top: -15px;
+        width: 67px;
+        height: 185px;
+    }
+
+    .radio-label {
+        font-size: 16px;
+        color: #000000 !important;
+    }
+
+    .radio-block {
+        margin-top: 30px;
+    }
+
+    .next, .back {
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media all and (min-width: 1024px) {
+    .stepRemote {
+
+        h2 {
+            font-size: 36px;
+        }
+
+        h3 {
+            font-size: 28px;
+            line-height: 38px;
+        }
+
+        .section_1 {
+            .wrapper {
+                align-items: center;
+            }
+            .radio-label {
+                font-size: 20px;
+                line-height: 27px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+
+            .radio-block {
+                margin-top: unset;
+                margin-left: 40px;
+            }
+
+            [type=radio]:checked + label:before, [type=radio]:not(:checked) + label:before {
+                top: 6px;
+            }
+            label:after, [type=radio]:not(:checked) + label:after {
+                top: 6px !important;
+            }
+        }
+
+        .a-icon {
+            width: 133px;
+            height: 321px;
+        }
+
+        .next, .back {
+            font-size: 20px;
+        }
+
+        .remote {
+            max-width: 363px;
+            height: auto;
+        }
+
+    }
+}

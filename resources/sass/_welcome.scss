@@ -1,0 +1,299 @@
+.welcome {
+    .demo-bar {
+        padding: 5px;
+        display: flex;
+        span {
+            font-family: $primary-font, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            display: block;
+            color: #ffffff;
+            width: auto;
+            margin: auto;
+        }
+        background-color: #41C0C4;
+
+    }
+
+    .header {
+        padding-top: 72px;
+        min-height: calc(100vh - 90px);
+        z-index: 8;
+    }
+
+    .section {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .section:first-child {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .radio-block {
+        margin-right: 5px;
+    }
+
+    .section_1 {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .text_1 {
+        padding: 65px 52px 86px;
+        max-width: 225px;
+    }
+    .text_2 {
+        padding: 36px 52px 44px;;
+        max-width: 225px;
+    }
+    .text_3 {
+        padding: 67px 52px 83px;
+        max-width: 223px;
+    }
+
+    .text_4 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .text_5 {
+        padding-bottom: 40px;
+    }
+
+    .text_6 {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        padding-left: 63px;
+        padding-right: 23px;
+        max-width: 236px;
+    }
+
+    .text_7 {
+        padding-top: 80px;
+        padding-bottom: 94px;
+        padding-right: 42px;
+        padding-left: 41px;
+        max-width: 243px;
+    }
+
+    .list {
+        padding-left: 20px;
+        margin-top: -10px;
+        p {
+            font-family: $primary-font, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            margin: 0;
+            font-size: 16px;
+            line-height: 22px;
+            color: #000000;
+        }
+    }
+
+    .text_8 {
+        padding-right: 45px;
+        padding-left: 45px;
+        padding-top: 34px;
+        padding-bottom: 34px;
+        background-color: $primary-color;
+        color: #ffffff;
+    }
+
+    .car {
+        max-width: 834px;
+        max-height: 556px;
+    }
+
+    .path {
+        margin: auto;
+        margin-top: 40px;
+
+        width: 249px;
+        height: 397px;
+    }
+    .baby {
+        width: 191px;
+        height: 293px;
+        padding-bottom: 10px;
+    }
+    .driving {
+        max-width: 520px;
+        max-height: 520px;
+        margin: auto;
+
+        width: 100%;
+    }
+    .lady {
+        max-width: 480px;
+        max-height: 480px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .checkbox {
+        align-self: flex-end;
+    }
+
+    .text-input {
+        align-self: flex-start;
+        margin-top: 26px;
+    }
+
+    .section_8 {
+        padding-bottom: 50px;
+    }
+
+    .checkbox-padded {
+        margin-top: 30px;
+    }
+
+    .section_4 {
+        .checkbox {
+            align-self: flex-end;
+            margin-top: 30px;
+        }
+    }
+}
+@media all and (min-width: 500px) {
+    .welcome {
+        .checkbox {
+            align-self: center;
+        }
+
+        .text-input {
+            align-self: center;
+        }
+
+        .flex-end {
+            align-self: center;
+        }
+    }
+}
+
+@media all and (min-width: 1024px){
+.welcome {
+
+    .text_1 {
+        padding: 100px 76px 141px;
+        max-width: 332px;
+    }
+    .text-input {
+        align-self: flex-end;
+    }
+    .text_2 {
+        padding: 65px 62px 85px 83px;
+    }
+    .text_3 {
+        padding: 84px 61px 122px 87px;
+        max-width: 290px;
+    }
+
+    .text_4 {
+        max-width: 406px;
+        padding: 95px 100px 134px 113px;
+    }
+
+    .text_5 {
+        max-width: 439px;
+        padding: 96px 86px 119px 111px;
+    }
+
+    .text_6 {
+        max-width: 386px;
+        padding: 127px 61px 162px 95px;
+    }
+
+    .text_7 {
+        max-width: 337px;
+        padding: 117px 36px 124px;
+    }
+
+    .text_8 {
+        max-width: 419px;
+        padding: 96px 86px 140px 112px;
+        background: none;
+        color: #000000;
+    }
+
+    .list {
+        p {
+            font-size: 20px;
+            line-height: 27px;
+
+        }
+    }
+
+    .radio-block {
+        margin-right: 77px;
+    }
+
+    .baby {
+        margin-left: 40%;
+        margin-bottom: 57px;
+        margin-top: 40px;
+        padding-top: 0px;
+        width: 191px;
+        height: 293px;
+    }
+    .driving {
+        position: absolute;
+        height: 520px;
+        width: 520px;
+        right: 16px;
+        top: 35px;
+    }
+
+    .lady {
+        width: 480px;
+        height: 480px;
+        position: absolute;
+        left: 0;
+        top: -43px;
+    }
+
+    .checkbox {
+        margin-left: 120px;
+    }
+
+    .section_3 {
+        padding-bottom: 164px;
+    }
+
+    .car {
+        width: 834px;
+        height: 556px;
+        position: absolute;
+        top: 300px;
+        left: -230px;
+    }
+
+    .section_2 {
+        height: 864px;
+        margin-top: 0px;
+        padding-bottom: 0;
+    }
+
+    .section_2 .bubble:first-child{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .bubble.altered{
+        position: absolute;
+        right: 0;
+        top: 200px;
+    }
+
+    .section_4 {
+        .checkbox {
+            align-self: unset;
+            margin-top: 30px;
+        }
+    }
+
+
+}
+}

@@ -1,0 +1,46 @@
+.page_conditions {
+
+    padding-top: 140px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+
+    position: relative;
+    box-sizing: border-box;
+
+    h2 {
+        margin-top: 0px;
+        color: #333333;
+    }
+
+    .text-block {
+        margin-top: 40px;
+    }
+
+    .social {
+        margin-top: 60px;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    a {
+        text-decoration: none;
+        color: #17578b;
+    }
+}
+
+
+@media all and (min-width: 1024px){
+
+    .page_contacts {
+        padding-bottom: 80px;
+        margin-bottom: 0px;
+
+        .social {
+            margin-top: 60px;
+            margin-left: 0;
+            margin-right: auto;
+        }
+    }
+}

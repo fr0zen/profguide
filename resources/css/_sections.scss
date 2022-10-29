@@ -1,0 +1,245 @@
+.section__primary {
+    background-color: $primary-color;
+    padding-top: 140px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 137px;
+    margin-bottom: 186px;
+    position: relative;
+    box-sizing: border-box;
+
+
+    h3 {
+        margin-top: 50px;
+    }
+
+    .button {
+        margin-top: 58px;
+    }
+}
+
+.section__secondary {
+    background-color: $bg-color;
+    padding-top: 132px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 137px;
+    margin-bottom: 206px;
+    position: relative;
+    box-sizing: border-box;
+
+
+    h3 {
+        margin-top: 26px;
+    }
+
+    .button {
+        margin-top: 58px;
+    }
+}
+
+.mountains {
+    position: absolute;
+    background: url("/images/mountains-m.svg") center center no-repeat;
+    background-size: cover;
+    width: 232px;
+    bottom: -75px;
+    left: calc(50% - 116px);
+    height: 203px;
+}
+
+.mountains-c {
+    background: url("/images/mountains-c-m.svg") center center no-repeat;
+}
+
+.boy {
+    z-index: 1;
+    position: absolute;
+    background: url("/images/boy-m.svg") center center no-repeat;
+    background-size: cover;
+    width: 39px;
+    bottom: -85px;
+    left: 11px;
+    height: 118px;
+}
+
+.girl {
+    z-index: 1;
+    position: absolute;
+    background: url("/images/girl-m.png") center center no-repeat;
+    background-size: cover;
+    width: 52px;
+    bottom: -90px;
+    right: 10px;
+    height: 120px;
+}
+
+.scene {
+    max-width: 360px;
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    width: 100%;
+    left: calc(50% - 180px);
+}
+
+.cup {
+    z-index: 1;
+    position: absolute;
+    background: url("/images/cup.svg") center center no-repeat;
+    background-size: cover;
+    width: 14px;
+    bottom: -45px;
+    left: 85px;
+    height: 18px;
+}
+
+.ball {
+    z-index: 1;
+    position: absolute;
+    background: url("/images/ball.svg") center center no-repeat;
+    background-size: cover;
+    width: 20px;
+    bottom: -80px;
+    left: 130px;
+    height: 24px;
+}
+
+.book {
+    z-index: 1;
+    position: absolute;
+    background: url("/images/book.svg") center center no-repeat;
+    background-size: cover;
+    width: 19px;
+    bottom: -30px;
+    right: 155px;
+    height: 23px;
+}
+
+.bag {
+    z-index: 1;
+    position: absolute;
+    background: url("/images/bag.svg") center center no-repeat;
+    background-size: cover;
+    width: 22px;
+    bottom: -80px;
+    right: 95px;
+    height: 30px;
+}
+
+
+@media all and (min-width: 1024px){
+
+    .content_wrapper {
+        width: 100%;
+        max-width: 996px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: auto;
+        box-sizing: border-box;
+
+    }
+
+    .section__primary {
+        .button {
+            margin-top: 118px;
+        }
+    }
+
+    .section__primary {
+        padding-top: 150px;
+        padding-bottom: 204px;
+        margin-bottom: 297px;
+    }
+    .section__primary.edited {
+        padding-top: 150px;
+        padding-bottom: 164px;
+        margin-bottom: 297px;
+    }
+    .scene {
+        max-width: 960px;
+        left: calc(50% - 480px);
+    }
+
+    .mountains {
+        position: absolute;
+        background: url("/images/mountains.svg") center center no-repeat;
+        background-size: cover;
+        height: 550px;
+        bottom: -260px;
+        left: calc(50% - 320px);
+        width: 628px;
+    }
+
+    .mountains-c {
+        background: url("/images/mountains-c.svg") center center no-repeat;
+    }
+
+
+
+    .boy {
+        z-index: 1;
+        position: absolute;
+        background: url("/images/boy-m.svg") center center no-repeat;
+        background-size: cover;
+        width: 106px;
+        bottom: -165px;
+        left: 11px;
+        height: 320px;
+    }
+
+    .girl {
+        z-index: 1;
+        position: absolute;
+        background: url("/images/girl-m.png") center center no-repeat;
+        background-size: contain;
+        width: 142px;
+        bottom: -160px;
+        right: 10px;
+        height: 313px;
+    }
+
+    .cup {
+        z-index: 1;
+        position: absolute;
+        background: url("/images/cup.svg") center center no-repeat;
+        background-size: cover;
+        width: 30px;
+        bottom: -50px;
+        left: 222px;
+        height: 36px;
+    }
+
+    .ball {
+        z-index: 1;
+        position: absolute;
+        background: url("/images/ball.svg") center center no-repeat;
+        background-size: cover;
+        width: 54px;
+        bottom: -130px;
+        left: 356px;
+        height: 62px;
+    }
+
+    .book {
+        z-index: 1;
+        position: absolute;
+        background: url("/images/book.svg") center center no-repeat;
+        background-size: cover;
+        width: 57px;
+        bottom: -30px;
+        right: 391px;
+        height: 57px;
+    }
+
+    .bag {
+        z-index: 1;
+        position: absolute;
+        background: url("/images/bag.svg") center center no-repeat;
+        background-size: cover;
+        width: 58px;
+        bottom: -125px;
+        right: 233px;
+        height: 76px;
+    }
+}

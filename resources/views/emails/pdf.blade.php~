@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Profguide</title>
+    <style>body { font-family: DejaVu Sans }
+        .inline {
+            display: flex;
+            align-items: center;
+        }
+        h1 {
+            display: inline;
+            padding: 0;
+            margin: 0;
+            margin-left: 45px;
+            margin-bottom: 10px;
+        }
+        img {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+<div class="inline">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAApCAYAAADJeCK0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQRSURBVHgBxVhdaBxVFP7uzOxm89esibXiVp2mRHyQmCgIog9r8aUUpXkRFIR9FF+aPtQGVKiIz1Xw761pwZe+aCNBKChbaIUqtjFFQkltZ9s0tdnsZHaT7uzszsz13jOzP6IgS2fSD+6cc88MnHPPd++59w7wAMDk4/i7b+dS/f0nwJnl2FVLmAx6y4VksBjn0mb5UMpQwnc+LNkOfz1roEto9FRU462Zj7Fj+OG06KWFY71SWodj3xPNJin7Eptkr7baV0fegVOVgTIKjBoPJAM3gviUggz28OezeXL6y/zpG1JZvfoHVsNIkr39UJMJaFoCqVQKQ8PDeCTzOHqEXUJNJKBqSZKaaGGgaeEcFbNI31TMMDhhu754CcWVmwvCPNkeKWf6ZvhxgCK6RU9vXytgiYQIJpUewbVbN4MscaRb6WWCR477hxxVp2xi6eL5f32rIOAhFhSXV1FeNKmZv66nZ0b3nSCnnDEDMSLkHEqCgfl+nmxyOUSR3v/CzrHHMPzcrlbKp3+eP0kByHWI7UFrIikcvICYYK2s406+APNiEaULazg6+spladcQKxhSw32iOHjUq1u1Y+SU+czgDLEgvXsED43vbHH6wdnvzkipuJprIEaoWjuZx6dzxGus6b1X2sTtH67DdV3qe7a78f6efbry4v43DcSEZF8SA/oQBsZ2UFMHtNwnN34qhCOVOwRPI2IkenswMv6oKP4l6g9mhvJYDMqg8Olv11ol0EhF0TdEVdIRMRq2g8LcVTibtabJOKJnJ4P0MpFeHn0xlOnNvLwX5t2/RO1V4JTs3Idn5xbIKY9xpxnIDKKKMumpdNKQkjhtHivigld1qdlrVV32w5HS7EXUkJwufXOZZIjZo3rWCpeMXw4PhpFCcvrkq09hw7xLnDaK9sGZ7789Q04VT7F8JZ5ddTCTxpa7Qbr2xGC7DPqqaoC7iAMqUwNObQ9109FFenVy6ik1S/XiKcPLc1dQvl1qdo+JmWuQp1QtZTUS8Yx07PVxFJaWBKcqFI3lDn1x6iQtmcmpqdjWKdMY1F6NZBPtnDKxVsWhGxGDuQz1kkOcNiwnKzg9p7V9slhOhbfO/wnzSnBjUDTlIGtyGiKWFO/d/wz47mC+MI5PD3156iOl+TLuQ3cnOtIbz6G7ZlZhr1ThNwSn5Xr2PT37e8dEontl5LhzycDWtQrp3PV0kdpnW06DQ3f09ffp156Ht6tOuuB09h+cbic6Zm9iAawR+Vp1Ky62loP0NspObmY023b6woEpeT3fI/UL86cnxM1uCFyZYNzTOZQJBBegCXQJs7AmCz3pXt21uC//RXSJbgOSV4rf8j+SLjidFpx+1vXW8tKBNxZC9dz/BeQzVRf/IvQgKG74foPuMn8DoSjRC36USlEAAAAASUVORK5CYII=">
+    <h1>Profguide</h1>
+</div>
+
+<h2>Поздравляю тебя с прохождением курса!</h2>
+<p>Здесь собраны все твои ответы воедино. Пересмотри их еще раз и проанализируй, сверь также со своим результатами тестов. Если уже понятно кем тебе хотелось стать, но не совсем понятно куда идти учиться, что есть на рынке - поищи. Просто загугли. Чем больше информации у тебя будет, тем яснее путь к цели.
+</p>
+<h3>Точка А</h3>
+<p>
+    Возраст: {{ $details['age'] }}
+</p>
+<p>
+    Страна: {{ $details['country'] }}
+</p>
+<p>
+    Город: {{ $details['city'] }}
+</p>
+<p>
+    Хобби, знания, умения: {{ $details['skills'] }}
+</p>
+<p>
+    Заметки: (если их тут оставлял пользователь) {{ $details['stepANotes'] }}
+</p>
+<h3>Точка B</h3>
+<p>
+    Через 10 лет я:
+</p>
+<p>
+    {{ $details['futurePlace'] }}
+</p>
+<p>
+    {{ $details['futurePlaceDescription'] }}
+</p>
+<p>
+    {{ $details['currentPlace'] }}
+</p>
+<p>
+    {{ $details['upTime'] }}
+</p>
+<p>
+    {{ $details['morningDeals'] }}
+</p>
+<p>
+    {{ $details['afterMorningDeals'] }}
+</p>
+<p>
+    Утром я: {{ $details['workplace'] }}
+</p>
+<h3>Идеальный рабочий формат</h3>
+<p>
+    {{ $details['building'] }}
+</p>
+<p>
+    Я бы хотел(а) работать:
+</p>
+<p>
+    {{ $details['size'] }}
+</p>
+<p>
+    Мне больше всего подходит роль:
+</p>
+<p>
+    {{ $details['role'] }}
+</p>
+
+@isset($details['stepCompanyNotes'])
+    <p>Заметки: {{ $details['stepCompanyNotes'] }}</p>
+@endisset
+
+@isset($details['departments'])
+    @forelse ($details['departments'] as $department)
+        <p>{{ $department }}</p>
+    @empty
+        <b></b>
+    @endforelse
+@endisset
+
+@isset($details['stepDepartmentsNotes'])
+    <p>Заметки: {{ $details['stepDepartmentsNotes'] }}</p>
+@endisset
+<h3>Ты дикий или домашний котик?</h3>
+<p>
+    {{ $details['cat'] }}
+</p>
+
+<h3>Что тебе нравиться делать больше всего?</h3>
+<p>
+    {{ $details['interestsDesc'] }}
+</p>
+<p>
+    {{ $details['activitiesDesc'] }}
+</p>
+
+@forelse($details['talents'] as $talent)
+    <p>{{ $talent }}</p>
+@empty
+    <b></b>
+@endforelse
+
+<p>{{ $details['steptalentsTalentsDescription'] }}</p>
+<h3>Итоги</h3>
+<p>
+    {{ $details['future'] }}
+</p>
+<p>
+    {{ $details['steps'] }}
+</p>
+
+<p>
+    Желаем тебе успехов и только вперед!
+</p>
+
+<p>
+    А если вдруг у тебя остались вопросы и сомнения после пройденного пути, мы рекомендуем обратиться к Анне Исаенко - профориентологу с 20+ летним опытом профориентации подростков. Скажите что вы от проекта teenjob и она сделает вам скиндку на консультацию в 20%.
+</p>
+</body>
+</html>
+
+

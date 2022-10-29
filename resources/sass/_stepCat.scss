@@ -1,0 +1,235 @@
+.stepCat{
+    .progress-bar {
+        width: 100%;
+        background-color: $bg-color;
+    }
+
+    .text-group {
+        width: 100%;
+        max-width: 330px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .lady {
+        height: 100%;
+        width: auto;
+        margin-top: 20px;
+    }
+    h2 {
+        font-family: Open Sans, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 49px;
+        text-align: center;
+        color: #333333;
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+
+    .section_1 {
+        margin-top: 60px;
+
+        .block {
+            margin-bottom: 30px;
+        }
+    }
+
+    .text_1 {
+        padding: 78px 36px 82px;
+        background-color: $primary-color;
+        font-family: Open Sans, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    .section_2 {
+        margin-top: 60px;
+
+        .bubble {
+            background: none;
+        }
+    }
+
+    .section_4 {
+
+        .bubble {
+            background: none;
+        }
+    }
+
+    .text_2 {
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+        margin-bottom: 40px;
+    }
+
+    .wildcat, .homecat {
+        margin-bottom: 40px;
+    }
+
+    .wildcat {
+        height: 100%;
+        max-height: 385px;
+    }
+
+    .homecat {
+        height: 100%;
+        max-height: 390px;
+    }
+
+    .section_4 {
+        margin-top: 20px;
+    }
+
+    .section_6 {
+        margin-bottom: 24px;
+    }
+
+    .text_3 {
+        max-width: 164px;
+        padding: 60px 46px 78px 61px;
+    }
+
+    .section_7 {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+
+    .a-icon {
+        position: absolute;
+        right: 16px;
+        top: -15px;
+        width: 67px;
+        height: 185px;
+    }
+
+    .radio-block {
+        max-height: 100px;
+    }
+
+    .radio-label {
+        font-size: 16px;
+        color: #000000 !important;
+    }
+
+    .next {
+        font-size: 16px;
+    }
+
+}
+
+@media all and (min-width: 1024px) {
+    .stepCat {
+
+        .textarea {
+            max-width: 100%;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        .section_1 {
+            margin-top: 60px;
+
+            .block {
+                margin-bottom: 0px;
+            }
+        }
+
+        .text_1 {
+            max-width: 393px;
+            padding: 103px 92px 122px 91px;
+            color: #000000;
+            background: none;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 27px;
+        }
+
+        .lady {
+            max-width: 384px;
+            transform: scaleX(-1);
+            height: 100%;
+            width: auto;
+            margin-top: 10px;
+        }
+
+        .text_2 {
+            font-size: 20px;
+            line-height: 27px;
+        }
+
+        .section_2 {
+            .text_2 {
+                margin-right: 53px;
+            }
+        }
+
+        .section_4 {
+            .text_2 {
+                box-sizing: border-box;
+                margin-left: 50px;
+                margin-bottom: 60px;
+            }
+        }
+
+        .text_3 {
+            max-width: 224px;
+            padding: 91px 79px 125px 79px;
+        }
+
+        .section_5 {
+            margin-bottom: 0px;
+        }
+
+        .section_6 {
+            margin-bottom: 20px;
+
+            .wrapper {
+                align-items: center;
+            }
+
+            .radio-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: 125px;
+
+                p {
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+                .radio-label {
+                    font-size: 20px;
+                }
+            }
+
+            p {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .a-icon {
+            width: 133px;
+            height: 321px;
+        }
+
+        .next {
+            font-size: 20px;
+        }
+    }
+}

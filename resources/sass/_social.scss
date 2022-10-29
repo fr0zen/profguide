@@ -1,0 +1,64 @@
+.social {
+    display: flex;
+    width: 240px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-share {
+    display: flex;
+    width: 185px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icon {
+    display: block;
+    width: 47px;
+    height: 47px;
+    transition: all 0.3s ease-in-out;
+}
+.social-icon:hover {
+
+}
+
+.social-title {
+    text-align: center;
+    font-family: $primary-font, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    margin-bottom: -30px;
+    margin-top: 50px;
+}
+
+@media all and (min-width: 1024px) {
+    .social-title {
+
+        font-size: 20px;
+
+    }
+}
+
+.tg-icon {
+    background: url('/images/tg-icon.svg') center center no-repeat;
+    background-size: contain;
+}
+
+.fb-icon {
+    background: url('/images/fb-icon.svg') center center no-repeat;
+    background-size: contain;
+}
+.vk-icon {
+    background: url('/images/vk-icon.svg') center center no-repeat;
+    background-size: contain;
+}
+
+.in-icon {
+    background: url('/images/in-icon.svg') center center no-repeat;
+    background-size: contain;
+}

@@ -1,0 +1,91 @@
+.page_start {
+
+    .section__secondary {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    ul {
+        list-style: none;
+        li {
+            position: relative;
+        }
+        li::before {
+            content: url(/images/book-bullet.png);
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            top: 5px;
+            left: -40px;
+
+        }
+    }
+
+    h2 {
+        font-family: $primary-font, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+        color: #333333;
+        margin-bottom: 50px;
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .text-list {
+        font-family: $primary-font, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #333333;
+        margin-bottom: 26px;
+        a {
+            text-decoration: none;
+            color: #274684;
+        }
+    }
+
+    .button {
+        min-width: 320px;
+    }
+
+    .button_text {
+
+        font-family: $primary-font, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+        white-space: nowrap;
+
+    }
+}
+@media all and (min-width: 1024px) {
+    .page_welcome {
+        h2 {
+            font-family: $primary-font, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 49px;
+            text-align: center;
+            color: #333333;
+            margin-bottom: 30px;
+        }
+
+        .button_text {
+            font-size: 20px;
+        }
+
+        .text-list {
+            font-size: 20px;
+            line-height: 27px;
+        }
+
+        .button {
+            min-width: 370px;
+        }
+    }
+}

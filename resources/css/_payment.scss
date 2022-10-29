@@ -1,0 +1,79 @@
+.payment {
+
+    .textbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 247px;
+        height: 40px;
+        border: none;
+        outline: none;
+        font-family: $primary-font, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        margin-top: 50px;
+
+
+        border-radius: 25px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        z-index: 4;
+
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 247px;
+        height: 48px;
+        border: none;
+        outline: none;
+        font-family: $primary-font, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+
+        color: #FFFFFF;
+        margin-top: 30px !important;
+
+
+        background: $secondary-color;
+        border-radius: 25px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all .1s ease-in-out;
+        cursor: pointer;
+        z-index: 4;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .button:hover {
+        background-color: #4c9fa1;
+        transition: all .1s ease-in-out;
+    }
+    .button_text {
+        display: block;
+        font-family: $primary-font, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
+.payment.edited {
+    margin-bottom: 100px !important;
+    height: 100vh;
+}

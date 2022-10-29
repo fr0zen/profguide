@@ -1,0 +1,22 @@
+.clearfix {
+    clear:both;
+}
+
+.mobile-v {
+    display: block;
+
+    @media all and (min-width: 1024px){
+        display: none;
+    }
+}
+
+.desktop-v {
+    display: none;
+
+    @media all and (min-width: 1024px){
+        display: block;
+    }
+}
+.through {
+    text-decoration-line: line-through;
+}
